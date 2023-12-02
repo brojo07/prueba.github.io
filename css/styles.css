@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: wheat;
+}
+
+header {
+  background-image: url(banner_minecraft.png);
+  background-color: #000000;
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  width: 1879px;
+  height: 500px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+image {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 80%;
+  float: none;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: wheat;
+  padding: 1vw;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #555;
+  text-align: center;
+  border: 1px solid black;
+}
+
+input {
+  background-color: wheat;
+}
+
+nav li {
+  border: 1px solid rgb(61, 60, 60);
+  padding: 8px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: green;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: wheat;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+  display: flex;
+}
+
+footer {
+  background-color: #4e8549;
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 255, 136);
+}
+
+a:hover {
+  display: block;
+  padding: auto;
+  background-color: wheat;
+}
+
+.column {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.imatge {
+  width: 33%;
+}
+
+.segona_columna {
+  width: 32%;
+  margin: 0.5%;
+}
+
+.imatge2 {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.imatge3 {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.imatge4 {
+  width: 33%;
+  margin: 0.5%;
+}
+
+div {
+  float: left;
+  display: table;
+}
+
+@media (max-width: 600px) {
+
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
